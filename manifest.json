@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linkedin CV",
+  "description": "Linkedin CV converts any Linkedin profile into a printable CV.",
+  "version": "1.0.0",
+
+  "permissions": ["tabs", "http://*.linkedin.com/*", "https://*.linkedin.com/*"],
+
+  "background" : {
+    "scripts": ["background.js", "jquery-1.11.2.min.js"]
+  },
+  
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["http://*.linkedin.com/*", "https://*.linkedin.com/*"]
+  }],
+
+  "icons" : {
+    "16" : "images/logo16.png",
+    "48" : "images/logo48.png",
+    "128" : "images/logo128.png"
+  },
+
+  "page_action" :
+  {
+    "default_icon" : {
+      "19": "images/logo19.png",
+      "19": "images/logo38.png"
+    },
+    "default_title" : "Toggle Linkedin CV!"
+  }
+}

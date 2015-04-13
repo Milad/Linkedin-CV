@@ -1,0 +1,19 @@
+.linkedincv_hide {
+	display: none !important;
+}
+
+.linkedincv_mainwidth {
+	width: 100% !important;
+}
+
+.linkedincv_body {
+	margin-top: -220px !important;
+}
+
+.linkedincv_nobg {
+	background-image: none !important;
+}
+
+.linkedincv_profileoverview {
+	margin-right: 300px !important;
+}
