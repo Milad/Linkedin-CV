@@ -3,12 +3,12 @@
 
   "name": "Linkedin CV",
   "description": "Linkedin CV converts any Linkedin profile into a printable CV.",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "permissions": ["tabs", "http://*.linkedin.com/*", "https://*.linkedin.com/*"],
 
   "background" : {
-    "scripts": ["background.js", "jquery-1.11.2.min.js"]
+    "scripts": ["background.js"]
   },
   
   "content_scripts": [{

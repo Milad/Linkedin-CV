@@ -30,6 +30,7 @@ $('#badge-container').toggleClass('linkedincv_hide');
 $('#preview-ctx').toggleClass('linkedincv_hide');
 $('#freemium-bg').toggleClass('linkedincv_hide');
 $('#aux').toggleClass('linkedincv_hide');
+$('#connections').toggleClass('linkedincv_hide');
 $('#following-container').toggleClass('linkedincv_hide');
 $('#groups-container').toggleClass('linkedincv_hide');
 $('#endorsements').toggleClass('linkedincv_hide');
