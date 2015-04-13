@@ -9,3 +9,13 @@ This Google Chrome extension will add a small Linkedin button to the right of yo
 This extension source code is available under MIT license [here](https://github.com/Milad/Linkedin-CV).
 
 The installable extension can be found [here](https://chrome.google.com/webstore/detail/linkedin-cv/molbmfhjchleplbmfelmejkahmdpggic).
+
+## How to use
+
+* Install the [Linkedin CV] (https://chrome.google.com/webstore/detail/linkedin-cv/molbmfhjchleplbmfelmejkahmdpggic) extension.
+* Go to your Linkedin profile and click the "View profile as" button. Because we will convert your complete profile not the editable one.
+* Click the Linkedin logo in your browser address bar. Then your Linkedin profile will be converted.
+* Press (Ctrl + P) to activate the print options in Google Chrome.
+* From the options column on the right choose "Save as PDF" for destination.
+* Click "Save" to save your CV.
+* Good luck
